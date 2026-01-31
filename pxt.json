@@ -1,0 +1,30 @@
+{
+    "name": "CanSat - Primary mission",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "microphone": "*",
+        "pxt-lora": "github:AlexandreFrolov/pxt-lora#d0c9bbcfcf29fed2f721d4fca531d7dbefc5ae4c",
+        "datalogger": "*",
+        "BME280": "github:makecode-extensions/bme280#v1.1.0",
+        "pxt-kitronik-128x64display": "github:kitronikltd/pxt-kitronik-128x64display#v0.4.1"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "main.py"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "8.0.18",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
